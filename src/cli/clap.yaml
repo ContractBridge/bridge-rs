@@ -1,0 +1,19 @@
+name: bridge_app
+version: "0.1.0"
+about: Playing around with Bridge
+author: Christoph <gaoler@electronicpanopticon.com>
+
+# AppSettings can be defined as a list and are **not** ascii case sensitive
+settings:
+  - ArgRequiredElseHelp
+
+# All Args must be defined in the 'args:' list where the name of the arg, is the
+# key to a Hash object
+args:
+  # The name of this argument, is 'opt' which will be used to access the value
+  # later in your Rust code
+  - deal:
+      help: example option argument from yaml
+      short: d
+      long: deal
+      takes_value: false
