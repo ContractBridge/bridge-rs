@@ -24,6 +24,6 @@ mod tests {
         let pbn = read_pbn_file("files/pbn/basic_20.pbn").expect("file not found");
 
         println!("file: {}", pbn);
-        assert!(true);
+        assert!(pbn.contains("OKbridge Tournament"));
     }
 }
