@@ -1,3 +1,7 @@
+#[macro_use]
+extern crate nom;
+pub mod parser;
+
 pub fn deal() {
     println!("you get a hand!")
 }
