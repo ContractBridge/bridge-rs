@@ -12,3 +12,7 @@ assert_cmd = "1.0.1"
 [dependencies.clap]
 version = "3.0.0-beta.1"
 features = ["yaml"]
+
+[dependencies.nom]
+version = "^5"
+features = ["regexp"]
